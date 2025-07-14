@@ -1,0 +1,90 @@
+
+=========================================
+================= CLERI =================
+=========================================
+
+	q -> instant-heal (single)
+	e -> instant-heal (group)
+shift + e -> melee absorb (group)
+	r -> purge 2
+shift + r -> DI
+
+
+g 	  -> mana potion from shield
+
+shift + f -> spread-heal
+
+
+
+=========================================
+================= FRIAR =================
+=========================================
+
+q 		-> 1 - cure NS
+shift + q 	-> 2 - haste-buff
+
+e 		-> 3 - taunt
+shift + e 	-> 4 - small heal
+
+r 		-> 5 - big heal
+shift + r 	-> 6 - grp heal
+
+shift + t 	-> 7 - rezz
+
+shift + f 	-> 8 - grp-hot
+
+
+=========================================
+================= SCOUT =================
+=========================================
+
+q 		-> 1 - Rapid Fire
+shift + q 	-> 2 - long shot
+
+e 		-> 3 - power shot
+shift + e 	-> 4 - 
+
+r 		-> 5 - power shot (schneller schuss mit dmg)
+shift + r 	-> 6 - stealth shot
+
+shift + t 	-> 7 - 
+
+shift + f 	-> 8 - s
+
+shift + x 	-> stealth on/off
+alt + q  	-> gate-shot (10s cooldown!)
+
+/macro 2100 /groundset 2050 25
+
+
+=========================================
+================= Cabby =================
+=========================================
+
+Mouse1		-> Nearsight
+Mouse1 + Shift	-> PetAttack
+
+Mouse2		-> AE-Seuche
+Mouse2 + Shift  -> AE-Dot
+
+MWheelUp + Shft -> StripResis	
+MWheelDown+Shft -> LifeLeech
+
+MiddleMouse 	-> Root
+MiddleMouse+shft-> AE-Root
+
+q 		-> 1 - QuickCast
+shift + q 	-> 2 - 
+
+e 		-> 3 - 
+shift + e 	-> 4 - 
+
+r 		-> 5 - 
+shift + r 	-> 6 - 
+
+shift + t 	-> 7 - 
+
+shift + f 	-> 8 - 
+
+shift + x 	-> 
+alt + q  	-> 
