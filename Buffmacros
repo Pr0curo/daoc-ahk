@@ -1,0 +1,46 @@
+Recorders for Buffs
+
+Cleric Self + Specs Group
+------------------------------
+/buff self sc dq con lowdex saf
+/buff Armsman sc dq saf
+/buff Cabalist sc dq acuity
+/buff Friar sc
+/buff Heretic dq
+/buff Mercenary sc dq saf
+/buff Paladin sc dq
+/buff Minstrel sc dq saf
+/buff Reaver sc dq saf
+/buff Sorcerer sc dq acuity 
+/buff Theurgist sc dq acuity
+/buff Wizard sc dq acuity 
+
+Cleric Bases Group
+------------------------------
+/buff Armsman lowdex con lowstr
+/buff Cabalist lowdex con 
+/buff Mercenary lowdex con lowstr
+/buff Paladin lowdex con lowstr
+/buff Minstrel lowdex con lowstr
+/buff Reaver lowdex con lowstr
+/buff Sorcerer lowdex con
+/buff Theurgist lowdex con
+/buff Wizard lowdex con
+/buff Necromancer lowdex con
+/buff Occultist lowdex con
+/buff Scout lowdex con lowstr
+
+Friar Self + Bases Group
+------------------------------
+/buff self dq con lowdex saf
+/buff Armsman lowdex con lowstr
+/buff Cabalist lowdex con 
+/buff Mercenary lowdex con lowstr
+/buff Paladin lowdex con lowstr
+/buff Minstrel lowdex con lowstr
+/buff Reaver lowdex con lowstr
+/buff Sorcerer lowdex con
+/buff Theurgist lowdex con
+/buff Wizard lowdex con
+/buff Necromancer lowdex con
+/buff Occultist lowdex con
