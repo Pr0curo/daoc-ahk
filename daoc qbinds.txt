@@ -6,8 +6,8 @@
 	q -> instant-heal (single)
 	e -> instant-heal (group)
 shift + e -> melee absorb (group)
-	r -> purge 2
-shift + r -> DI
+	r -> DI
+shift + r -> Purge
 
 
 g 	  -> mana potion from shield
@@ -20,18 +20,22 @@ shift + f -> spread-heal
 ================= FRIAR =================
 =========================================
 
-q 		-> 1 - cure NS
-shift + q 	-> 2 - haste-buff
+q 		-> 1 - hit
+shift + q 	-> 2 - 
 
 e 		-> 3 - taunt
-shift + e 	-> 4 - small heal
+shift + e 	-> 4 - 
 
-r 		-> 5 - big heal
-shift + r 	-> 6 - grp heal
+r 		-> 5 - 
+shift + r 	-> 6 - 
 
 shift + t 	-> 7 - rezz
 
 shift + f 	-> 8 - grp-hot
+
+c		->  Hand of God
+
+F5		-> All-Buffs
 
 
 =========================================
@@ -88,3 +92,31 @@ shift + f 	-> 8 -
 
 shift + x 	-> 
 alt + q  	-> 
+
+
+H S F D
+
+
+=========================================
+================= Sorc ==================
+=========================================
+
+Shift 	+ MWheelDown			-> Lifeleech Nuke
+Ctrl	+ MWheelDown			-> Matter Nuke
+Shift 	+ MWheelUp			-> Debuff Dex Single-Target + AE
+Ctrl 	+ MWheelUp			-> Debuff Resis Heat/Cold/Matter
+
+// Shift   + LeftMouse			-> Debuff ST-Str, AE-Str, AE-Dex, AE-Mezz
+// Shift   + RightMouse			-> Debuff ST-Str, AE-Str, AE-Dex, ST-Mezz
+
+MouseSide1						-> Amnesia
+Shift 	+ MouseSide1			-> open
+Ctrl 	+ MouseSide1			-> open
+
+MouseSide2						-> open
+Shift 	+ MouseSide2			-> open
+Ctrl 	+ MouseSide2			-> open
+
+Shift   + C				-> Charme Monster
+
+Shift 	+ Space				-> QuickCast 
