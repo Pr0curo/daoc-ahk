@@ -30,6 +30,14 @@ Cleric Bases Group
 /buff Occultist lowdex con
 /buff Scout lowdex con lowstr
 
+Necro Buff
+------------------------------
+/buff Necromancer lowdex dq
+
+Necro-Pet Buff
+------------------------------
+/buff target dq sc con af
+
 Friar Self + Bases Group
 ------------------------------
 /buff self dq con lowdex saf
