@@ -4,16 +4,16 @@ Cleric Self + Specs Group
 ------------------------------
 /buff self sc dq con lowdex saf
 /buff Armsman sc dq saf
-/buff Cabalist sc dq acuity
+/buff Cabalist sc dq acu
 /buff Friar sc
 /buff Heretic dq
 /buff Mercenary sc dq saf
 /buff Paladin sc dq
 /buff Minstrel sc dq saf
 /buff Reaver sc dq saf
-/buff Sorcerer sc dq acuity 
-/buff Theurgist sc dq acuity
-/buff Wizard sc dq acuity 
+/buff Sorcerer sc dq acu
+/buff Theurgist sc dq acu
+/buff Wizard sc dq acu
 
 Cleric Bases Group
 ------------------------------
