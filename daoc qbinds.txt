@@ -4,16 +4,24 @@
 =========================================
 
 			q -> instant-heal (single)
+
 			e -> instant-heal (group)
-	shift + e -> melee absorb (group)
+	shift + e -> melee absorb (group) (RA aktuell nicht vorhanden)
+
 			r -> DI 
+
 shift + space -> Purge
+
 			g -> mana (realm) cape
 	shift + g -> manatrank
 	 strg + g -> mana (single)
 
 			c -> RR5
 	shift + c -> MHB
+
+shift + MWhUp -> Stun
+shift + Mwhdown -> DD (Blitze)
+
 
 
 =========================================
@@ -120,4 +128,5 @@ Ctrl 	+ MouseSide2			-> open
 Shift   + C				-> Charme Monster
 
 Shift 	+ Space				-> QuickCast 
+
 
