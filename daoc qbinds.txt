@@ -3,17 +3,17 @@
 ================= CLERI =================
 =========================================
 
-	q -> instant-heal (single)
-	e -> instant-heal (group)
-shift + e -> melee absorb (group)
-	r -> DI
-shift + r -> Purge
+			q -> instant-heal (single)
+			e -> instant-heal (group)
+	shift + e -> melee absorb (group)
+			r -> DI 
+shift + space -> Purge
+			g -> mana (realm) cape
+	shift + g -> manatrank
+	 strg + g -> mana (single)
 
-
-g 	  -> mana potion from shield
-
-shift + f -> spread-heal
-
+			c -> RR5
+	shift + c -> MHB
 
 
 =========================================
@@ -120,3 +120,4 @@ Ctrl 	+ MouseSide2			-> open
 Shift   + C				-> Charme Monster
 
 Shift 	+ Space				-> QuickCast 
+
