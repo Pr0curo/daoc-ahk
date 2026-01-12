@@ -1,6 +1,6 @@
 # daoc-ahk
 
-1. load daoc.ahk via AHK - as administrator
+1. load daoc.ahk via AHK - as administrator (rightclick->run as administrator)
 2. ctrl + alt + r reloads the script
 3. strg + alt + shift + f1 writes down the qbinds (might take 2 minutes) in  daoc (carefull this is not reversible!)
 4. check for possible conflicts via vommand ```/qbind``` ingame, repeat 3. until all conflicts are resolved
