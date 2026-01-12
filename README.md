@@ -9,7 +9,7 @@
 after that your bars 6-10 are covered in q-binds, mostly for the following keys (details see file)
 
 ```
-q e r t 
+q   e r t 
         f g
  y x c
 
