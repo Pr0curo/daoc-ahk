@@ -44,7 +44,7 @@ Friar Self + Bases Group
 /buff Armsman lowdex con lowstr
 /buff Cabalist lowdex con 
 /buff Mercenary lowdex con lowstr
-/buff Paladin lowdex con lowstr
+/buff Paladin lowdex con 
 /buff Minstrel lowdex con lowstr
 /buff Reaver lowdex con lowstr
 /buff Sorcerer lowdex con
