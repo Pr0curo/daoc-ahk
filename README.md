@@ -21,4 +21,5 @@ mousebutton 5 (front one)
 set `b` for sit and `<` for drawing weapon.
 `^` is sprint and `alt + ^` is stick, for an easy combo to follow the leader+sprint
 whispering back is set to `h`.
+`k` is set to `/face` but never used directly via keypress (its used by klicking on the mousewheel, and included in the recorder-macros).
 
