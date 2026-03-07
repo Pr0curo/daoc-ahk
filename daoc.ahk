@@ -1,4 +1,3 @@
-
 #SingleInstance Force
 SendMode Event
 ; Event 
@@ -10,12 +9,18 @@ SetKeyDelay, 18		; 18 milliseconds between keypresses
 ;change cursor size to "50"
 DllCall("SystemParametersInfo", "Int", 0x2029, "Int", 0, "Ptr", 40, "Int", 0x01)
 
+; F13 -> Left Mouse Button
+; F14 -> right mouse button
+; F15 -> middle mouse button
+; F16 -> side button 1
+; F17 -> side button 2
+
+; F23 -> left and right mouse button
 
 ;--- Reload Script --------------------------------------------------------------------------------
 ^!r::Reload			; Reload the script using Ctrl+Alt+R
 Return
 
-; Leiste 5 --------------------------------------------------------------------------------------
 
 $CapsLock:: 
 {
@@ -23,6 +28,13 @@ $CapsLock::
 }
 Return
 
+;--- Left Mouse Button Section -----------------------------------------------------------------
+; alt + left mouse button
+$!LButton::
+{
+    Send {F9}
+}
+Return
 
 ;--- Middle Mouse Button Section -----------------------------------------------------------------
 ;Middle Mouse Button 
@@ -35,7 +47,7 @@ Return
 ;Middle Mouse Button + Shift
 $+MButton::
 {
-    Send {F2}
+    Send {F18}
 }
 Return
 
@@ -44,45 +56,32 @@ Return
 ;Seitentaste 2 (vordere)
 $XButton2:: 
 {
-    Send {F3}
+    Send {F19}
 }
 Return
 
 ;Seitentaste 2 + Shift (vordere)
 $+XButton2:: 
 {
-    Send {F4}
-}
-Return
-
-
-;Seitentaste 2 + Alt (vordere)
-$!XButton2:: 
-{
-    Send {F8}
+    Send {F20}
 }
 Return
 
 ;Seitentaste 1 (hintere)
 $XButton1:: 
 {
-    Send {F9}
+    Send {F21}
 }
 Return
 
 ;Seitentaste 1 + Shift (hintere)
 $+XButton1:: 
 {
-    Send {F10}
+    Send {F22}
 }
 Return
 
-;Seitentaste 1 + Alt (hintere)
-$!XButton1:: 
-{
-    Send {F11}
-}
-Return
+
 
 
 
@@ -117,11 +116,11 @@ Return
 
 
 ;Alt+K
-$!k:: 
-{
-    Send {k}
-}
-Return
+;$!k:: 
+;{
+;    Send {k}
+;}
+;Return
 
 
 
