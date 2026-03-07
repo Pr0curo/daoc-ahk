@@ -5,33 +5,76 @@ SetWorkingDir, %A_ScriptDir%
 
 SetKeyDelay, 18 ; 18 milliseconds between keypresses
 
-; This script is intended to work with #Include, and will automatically set all of my stanardized DAoC quickbinds.
+; This script is intended to work with #Include, and will automatilly set all of my stanardized DAoC quickbinds.
 
 ;used keys:
 
-; capslock                  -> 5 1 1    -> F5
-; q                         -> 5 2 1    -> q 
-; shift q                   -> 5 3 1
-; e                         -> 5 4 1 
-; shift e                   -> 5 5 1
-; r                         -> 5 6 1 
-; shift r                   -> 5 7 1 
-; shift f                   -> 5 8 1 
-; c                         -> 5 9 1 
-; shift c                   -> 5 10 1     
+; shift + w                 -> 4 1 1
+; alt + w                   -> 4 2 1
+; shift + a                 -> 4 3 1
+; alt + a                   -> 4 4 1
+; shift + s                 -> 4 5 1
+; alt + s                   -> 4 6 1
+; shift + d                 -> 4 7 1
+; alt + d                   -> 4 8 1
 
 
-; shift space               -> 6 1 1    -> F6
-; shift + mouse left        -> no qbind -> 1
-; shift + mouse right       -> no qbind -> 2
-; mouse middle              -> 6 3 1    -> F7
-; shift + mouse middle      -> 6 4 1    -> F8
-; mouse 1                   -> 6 5 1    -> F9
-; shift + mouse 1           -> 6 6 1    -> F10
-; ctrl + mouse 1            -> 6 7 1    -> F11
-; mouse 2                   -> 6 8 1    -> END
-; shift + mouse 2           -> 6 9 1    -> INS
-; ctrl + mouse 2            -> 6 10 1   -> DEL
+; q                         -> 5 1 1
+; shift + q                 -> 5 2 1
+; alt + q                   -> 5 3 1
+; ctrl + q                  -> 5 4 1
+
+; e                         -> 5 5 1
+; shift + e                 -> 5 6 1
+; alt + e                   -> 5 7 1
+; ctrl + e                  -> 5 8 1
+
+; r                         -> 5 9 1 
+; shift + r                 -> 5 0 1 
+; alt + r                   -> 6 1 1 
+; ctrl + r                  -> 6 2 1
+
+; t                         -> 6 3 1 
+; shift + t                 -> 6 4 1 
+; alt + t                   -> 6 5 1 
+; ctrl + t                  -> 6 6 1
+
+; f                         -> 6 7 1 
+; shift + f                 -> 6 8 1 
+; alt + t                   -> 6 9 1 
+; ctrl + t                  -> 6 0 1
+
+; g                         -> 7 1 1 
+; shift + g                 -> 7 2 1 
+; alt + g                   -> 7 3 1 
+; ctrl + g                  -> 7 4 1
+
+; y                         -> 7 5 1 
+; shift + y                 -> 7 6 1 
+; alt + y                   -> 7 7 1 
+; ctrl + y                  -> 7 8 1
+
+; x                         -> 7 9 1 
+; shift + x                 -> 7 0 1 
+; alt + x                   -> 8 1 1 
+; ctrl + x                  -> 8 2 1
+
+; c                         -> 8 3 1 
+; shift + c                 -> 8 4 1 
+; alt + c                   -> 8 5 1 
+; ctrl + c                  -> 8 6 1   
+
+; v                         -> 8 7 1
+; shift + v                 -> 8 8 1 
+; alt + v                   -> 8 9 1 
+; ctrl + v                  -> 8 0 1
+
+
+; mouse side 1              -> 9 2 2   
+
+; mouse side 2              -> 9 4 2
+
+
 
 
 ; shift + mousewheel up     -> 7 1 1    -> UP
@@ -42,20 +85,58 @@ SetKeyDelay, 18 ; 18 milliseconds between keypresses
 ; alt + Mouse1              -> 7 5 1    -> ,
 ; alt + Mouse2              -> 7 6 1    -> .
 
-; g                         -> 7 7 1    -> g
-; shift + g                 -> 7 8 1    -> shift g
-; strg + g                  -> 7 9 1    -> strg g
-; strg + c                  -> 7 10 1    -> strg c
- 
-; x                         -> 8 1 1 -> x
-; shift + x                 -> 8 2 1 -> x
-; strg + x                  -> 8 3 1 -> x
+
+
 
 
 
 ^+!F1::  	; Press Ctrl, Shift, Alt, and F1 to Set all Qbinds 
 
     SetKeyDelay, 40
+
+            ; -- w --
+        Send, {enter}/qbind 4 1 1{enter}
+            Sleep, 200
+        Send, {Shift down}{w}{Shift up}
+            Sleep, 200
+
+        Send, {enter}/qbind 4 2 1{enter}
+            Sleep, 200      
+        Send, {Alt down}{w}{Alt up}
+            Sleep, 200
+
+            ; -- a --
+        Send, {enter}/qbind 4 3 1{enter}
+            Sleep, 200
+        Send, {Shift down}{a}{Shift up}
+            Sleep, 200
+
+        Send, {enter}/qbind 4 4 1{enter}
+            Sleep, 200      
+        Send, {Alt down}{a}{Alt up}
+            Sleep, 200
+            
+            ; -- s --
+        Send, {enter}/qbind 4 5 1{enter}
+            Sleep, 200
+        Send, {Shift down}{s}{Shift up}
+            Sleep, 200
+
+        Send, {enter}/qbind 4 6 1{enter}
+            Sleep, 200      
+        Send, {Alt down}{s}{Alt up}
+            Sleep, 200
+
+            ; -- d --
+        Send, {enter}/qbind 4 7 1{enter}
+            Sleep, 200
+        Send, {Shift down}{d}{Shift up}
+            Sleep, 200
+
+        Send, {enter}/qbind 4 8 1{enter}
+            Sleep, 200      
+        Send, {Alt down}{d}{Alt up}
+            Sleep, 200
 
         ; -- q --
         Send, {enter}/qbind 5 1 1{enter}
@@ -269,7 +350,7 @@ SetKeyDelay, 18 ; 18 milliseconds between keypresses
             Sleep, 200    
 
 
-        ; set mousebinds to q-binds
+        ; Function-Keys to q-binds
         Send, {enter}/qbind 9 1 1{enter}
             Sleep, 200  
         Send, {F1}
@@ -355,8 +436,47 @@ SetKeyDelay, 18 ; 18 milliseconds between keypresses
         Send, {Shift down}{Space}{Shift up}
             Sleep, 200
 
+        ; extended function keys to q-binds
+        Send, {enter}/qbind 9 1 2{enter}
+            Sleep, 200  
+        Send, {F18} 
+            Sleep, 200
 
-        
+        Send, {enter}/qbind 9 2 2{enter}
+            Sleep, 200  
+        Send, {F19}
+            Sleep, 200
+
+        Send, {enter}/qbind 9 3 2{enter}
+            Sleep, 200  
+        Send, {F20}
+            Sleep, 200
+
+        Send, {enter}/qbind 9 4 2{enter}
+            Sleep, 200  
+        Send, {F21}
+            Sleep, 200
+
+        Send, {enter}/qbind 9 5 2{enter}
+            Sleep, 200  
+        Send, {F22}
+            Sleep, 200
+
+        Send, {enter}/qbind 9 6 2{enter}
+            Sleep, 200  
+        Send, {F24}
+            Sleep, 200
+
+        Send, {enter}/qbind 9 7 2{enter}
+            Sleep, 200  
+        Send, {Shift down}{k}{Shift up}
+            Sleep, 200        
+
+        Send, {enter}/qbind 9 8 2{enter}
+            Sleep, 200  
+        Send, {Alt down}{k}{Alt up}
+            Sleep, 200
+
     SetKeyDelay, 18
 
 return
