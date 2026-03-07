@@ -73,37 +73,27 @@ alt + q  	-> gate-shot (10s cooldown!)
 ================= Cabby =================
 =========================================
 
-Mouse1		-> Nearsight
-Mouse1 + Shift	-> PetAttack
+Mouse Side 1		-> Nearsight
+Mouse Side 2		-> AE-Seuche
 
-Mouse2		-> AE-Seuche
-Mouse2 + Shift  -> AE-Dot
+Shift + MWheelUp 	-> Pet Attack
+Shift + MWheelDown  -> Pet Passive
 
-MWheelUp + Shft -> StripResis	
-MWheelDown+Shft -> LifeLeech
+MiddleMouse 		-> Face
+Shift + MiddleMouse -> AE-Snare
 
-MiddleMouse 	-> Root
-MiddleMouse+shft-> AE-Root
+Capslock			-> QuickCast
 
-q 		-> 1 - QuickCast
-shift + q 	-> 2 - 
+q					-> ST-Root
 
-e 		-> 3 - 
-shift + e 	-> 4 - 
+Shift + W			-> Nearsight
 
-r 		-> 5 - 
-shift + r 	-> 6 - 
+Shift + S			-> Instant Dmg (Interrupt)
 
-shift + t 	-> 7 - 
+Shift + D			-> AE-Seuche
 
-shift + f 	-> 8 - 
-
-shift + x 	-> 
-alt + q  	-> 
-
-
-H S F D
-
+F5 					-> Selfbuffs
+F6 					-> Petbuffs
 
 =========================================
 ================= Sorc ==================
@@ -128,5 +118,6 @@ Ctrl 	+ MouseSide2			-> open
 Shift   + C				-> Charme Monster
 
 Shift 	+ Space				-> QuickCast 
+
 
 
