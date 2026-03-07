@@ -3,25 +3,31 @@
 ================= CLERI =================
 =========================================
 
-			q -> instant-heal (single)
+			q -> small heal (single) / debuff dex/qui 
+	shift + q -> instant heal (single)
 
-			e -> instant-heal (group)
-	shift + e -> melee absorb (group) (RA aktuell nicht vorhanden)
+			e -> big heal / debuff str/con
+	shift + e -> instant heal (group)
 
-			r -> DI 
+			r -> group-heal 
+	shift + r -> DI (group)
 
 shift + space -> Purge
+
+		    f -> nuke
+	shift + f -> stun
 
 			g -> mana (realm) cape
 	shift + g -> manatrank
 	 strg + g -> mana (single)
 
-			c -> RR5
+			c -> RR5/OhShitButton
 	shift + c -> MHB
 
-shift + MWhUp -> Stun
-shift + Mwhdown -> DD (Blitze)
-
+	shift + w -> debuff con
+	shift + a -> cure ns / debuff dex
+	shift + s -> cure dot / debuff str
+	shift + d -> cure disease / cl-disease
 
 
 =========================================
@@ -73,27 +79,37 @@ alt + q  	-> gate-shot (10s cooldown!)
 ================= Cabby =================
 =========================================
 
-Mouse Side 1		-> Nearsight
-Mouse Side 2		-> AE-Seuche
+	   Mouse Side 1	-> Nearsight
+	   Mouse Side 2 -> AE-Seuche
 
-Shift + MWheelUp 	-> Pet Attack
-Shift + MWheelDown  -> Pet Passive
+   Shift + MWheelUp	-> Pet Attack
+ Shift + MWheelDown -> Pet Passive
 
-MiddleMouse 		-> Face
+		MiddleMouse -> Face
 Shift + MiddleMouse -> AE-Snare
 
-Capslock			-> QuickCast
+		   Capslock	-> QuickCast
 
-q					-> ST-Root
+				  q	-> ST-Root
 
-Shift + W			-> Nearsight
+		  Shift + W -> Nearsight
 
-Shift + S			-> Instant Dmg (Interrupt)
+		  Shift + S	-> Instant Dmg (Interrupt)
 
-Shift + D			-> AE-Seuche
+		  Shift + D -> AE-Seuche
 
-F5 					-> Selfbuffs
-F6 					-> Petbuffs
+	  shift + space -> Purge
+
+		  shift + f -> debuff element
+				  f -> nuke
+		   ctrl + f -> element nuke 
+
+				  c -> RR5/OhShitButton
+
+				 F5	-> Selfbuffs
+				 F6	-> Petbuffs
+
+
 
 =========================================
 ================= Sorc ==================
@@ -118,6 +134,7 @@ Ctrl 	+ MouseSide2			-> open
 Shift   + C				-> Charme Monster
 
 Shift 	+ Space				-> QuickCast 
+
 
 
 
