@@ -6,7 +6,7 @@
 4. check for possible conflicts via vommand ```/qbind``` ingame, repeat 3. until all conflicts are resolved
 5. make sure to rebind ```/face```to ```k``` and add this in your recorders via ```/recorder sendkey k```
 
-after that your bars 6-10 are covered in q-binds, mostly for the following keys (details see file)
+after that your bars 4-10 are covered in q-binds, mostly for the following keys (details see file)
 
 ```
 q   e r t 
@@ -16,6 +16,9 @@ q   e r t
 mousewheel (with modifiers only!)
 mousebutton 4 (back one)
 mousebutton 5 (front one)
+
+shift + w a s d
+alt + w a s d
 ```
 
 set `b` for sit and `<` for drawing weapon.
@@ -23,3 +26,6 @@ set `b` for sit and `<` for drawing weapon.
 whispering back is set to `h`.
 `k` is set to `/face` but never used directly via keypress (its used by klicking on the mousewheel, and included in the recorder-macros).
 
+set the second bar (alt bar) / `9 7 2` & `9 8 2` to a face macro so face works whether you press `shift` or `alt`
+
+make sure to not have key conflicts!
