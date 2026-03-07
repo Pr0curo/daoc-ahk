@@ -2,7 +2,6 @@
 =========================================
 ================= CLERI =================
 =========================================
-
 			q -> small heal (single) / debuff dex/qui 
 	shift + q -> instant heal (single)
 
@@ -33,7 +32,6 @@ shift + space -> Purge
 =========================================
 ================= FRIAR =================
 =========================================
-
 q 		-> 1 - hit
 shift + q 	-> 2 - 
 
@@ -55,7 +53,6 @@ F5		-> All-Buffs
 =========================================
 ================= SCOUT =================
 =========================================
-
 q 		-> 1 - Rapid Fire
 shift + q 	-> 2 - long shot
 
@@ -78,7 +75,6 @@ alt + q  	-> gate-shot (10s cooldown!)
 =========================================
 ================= Cabby =================
 =========================================
-
 	   Mouse Side 1	-> Nearsight
 	   Mouse Side 2 -> AE-Seuche
 
@@ -114,26 +110,38 @@ Shift + MiddleMouse -> AE-Snare
 =========================================
 ================= Sorc ==================
 =========================================
+	   Mouse Side 1	-> verwirrfen
+	   Mouse Side 2 -> ???
 
-Shift 	+ MWheelDown			-> Lifeleech Nuke
-Ctrl	+ MWheelDown			-> Matter Nuke
-Shift 	+ MWheelUp			-> Debuff Dex Single-Target + AE
-Ctrl 	+ MWheelUp			-> Debuff Resis Heat/Cold/Matter
+   Shift + MWheelUp	-> Pet Attack
+ Shift + MWheelDown -> Pet Passive
 
-// Shift   + LeftMouse			-> Debuff ST-Str, AE-Str, AE-Dex, AE-Mezz
-// Shift   + RightMouse			-> Debuff ST-Str, AE-Str, AE-Dex, ST-Mezz
+		MiddleMouse -> Face
+Shift + MiddleMouse -> 
 
-MouseSide1						-> Amnesia
-Shift 	+ MouseSide1			-> open
-Ctrl 	+ MouseSide1			-> open
+		   Capslock	-> QuickCast
 
-MouseSide2						-> open
-Shift 	+ MouseSide2			-> open
-Ctrl 	+ MouseSide2			-> open
+				  q	-> ST-Root
+		  Shift + q	-> AE-Root
 
-Shift   + C				-> Charme Monster
+				  e	-> AE-Mezz
+		  Shift + e	-> ST-Mezz
 
-Shift 	+ Space				-> QuickCast 
+		  Shift + W -> ???
+
+		  Shift + S	-> ???
+
+		  Shift + D -> ???
+
+	  shift + space -> Purge
+
+		  shift + f -> debuff element
+				  f -> nuke
+		   ctrl + f -> element nuke 
+
+				  c -> RR5/OhShitButton
+
+				 F5	-> Selfbuffs
 
 
 
