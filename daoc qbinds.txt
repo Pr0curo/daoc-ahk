@@ -87,11 +87,11 @@ Shift + MiddleMouse -> AE-Snare
 		   Capslock	-> QuickCast
 
 				  q	-> ST-Root
+				  e	-> ST-Dex-debuff
+		  shift + e -> ST-Str-debuff
 
 		  Shift + W -> Nearsight
-
 		  Shift + S	-> Instant Dmg (Interrupt)
-
 		  Shift + D -> AE-Seuche
 
 	  shift + space -> Purge
@@ -100,7 +100,7 @@ Shift + MiddleMouse -> AE-Snare
 				  f -> nuke
 		   ctrl + f -> element nuke 
 
-				  c -> RR5/OhShitButton
+				  x -> RR5/OhShitButton
 
 				 F5	-> Selfbuffs
 				 F6	-> Petbuffs
@@ -142,6 +142,7 @@ Shift + MiddleMouse ->
 				  c -> RR5/OhShitButton
 
 				 F5	-> Selfbuffs
+
 
 
 
